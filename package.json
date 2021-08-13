@@ -1,0 +1,36 @@
+{
+  "name": "bluekut",
+  "version": "1.0.0",
+  "description": "Aplicação FullStack - Criação de uma rede social.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SottoMayor/FullStack-Blue.git"
+  },
+  "keywords": [
+    "rede",
+    "social",
+    "fullstack",
+    "MERN",
+    "app",
+    "web",
+    "javascript"
+  ],
+  "author": "David Sotto Mayor, João Ninguém",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SottoMayor/FullStack-Blue/issues"
+  },
+  "homepage": "https://github.com/SottoMayor/FullStack-Blue#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
