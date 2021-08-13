@@ -47,7 +47,7 @@ mongoose.connect('mongodb+srv://david:bl0VgI0FsJZEFE0O@cluster0.9gsy2.mongodb.ne
     useUnifiedTopology: true,
 })
 .then( () => {
-    app.listen(port, () => {
+    app.listen(5000, () => {
         console.info(`A aplicação está rodando em: http://localhost:${8080}`);
     });
 })
